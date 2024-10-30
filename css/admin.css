@@ -1,0 +1,51 @@
+
+/* welcom panel */
+
+.choco-calendar-options .welcome-panel p.message {
+    line-height: 1.4em;
+    margin-right: 25px;
+}
+
+.choco-calendar-options .welcome-panel-close {
+    z-index: 2;
+}
+
+.choco-calendar-options .support-link {
+    float: right;
+    margin-right: 4px;
+}
+
+#welcome-panel .choco-calendar-options {
+    clear: both;
+    padding-top: 10px;
+}
+.choco-calendar-options .welcome-panel h4 {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.choco-calendar-options .welcome-panel .welcome-panel-close::before {
+    display: none;
+}
+
+.choco-calendar-options .welcome-panel .welcome-panel-close.button:before {
+    content: "";
+}
+
+.choco-calendar-options pre {
+    /* Mozilla */
+    white-space: -moz-pre-wrap;
+
+    /* Opera 4-6 */
+    white-space: -pre-wrap;
+
+    /* Opera 7 */
+    white-space: -o-pre-wrap;
+
+    /* CSS3 */
+    white-space: pre-wrap;
+
+    /* IE 5.5+ */
+    word-wrap: break-word;
+}
+

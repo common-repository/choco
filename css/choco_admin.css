@@ -1,0 +1,52 @@
+
+/* welcom panel */
+
+.welcome-panel p.message {
+    line-height: 1.4em;
+    margin-right: 25px;
+}
+
+.welcome-panel-close {
+    z-index: 2;
+}
+
+.support-link {
+    float: right;
+    margin-right: 4px;
+}
+
+#welcome-panel {
+    clear: both;
+    padding-top: 10px;
+}
+.welcome-panel h4 {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.welcome-panel .welcome-panel-close::before {
+    display: none;
+}
+
+#welcome-panel.welcome-panel .welcome-panel-close.button:before {
+    content: "";
+}
+
+
+pre {
+    /* Mozilla */
+    white-space: -moz-pre-wrap;
+
+    /* Opera 4-6 */
+    white-space: -pre-wrap;
+
+    /* Opera 7 */
+    white-space: -o-pre-wrap;
+
+    /* CSS3 */
+    white-space: pre-wrap;
+
+    /* IE 5.5+ */
+    word-wrap: break-word;
+}
+
